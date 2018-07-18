@@ -55,7 +55,7 @@ include_once "everypage/header.php";
 										<img src="images/RaspberryPi.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="projects.php" class="link">Projects</a></h3>
+										<h3><a href="project.php" class="link">Projects</a></h3>
 										<p>Have a look at the projects i have worked on</p>
 									</header>
 								</article>
