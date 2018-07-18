@@ -28,7 +28,7 @@ echo 'Updated Raspberry Pi Firmware'
 echo -e $TEXT_RESET
 
 cd /var/www
-sudo chown vithusel html
+sudo chown $currentuser:$currentuser html
 cd html
 rm index.html
 cd ..
@@ -36,7 +36,7 @@ echo -e $TEXT_YELLOW
 echo 'setting ownership of folder and remove exising page'
 echo -e $TEXT_RESET
 
-git clone https://github.com/vithusel/vithusel.me.git html
+git clone https://github.com/vithusel/vithusel2.0.git html
 echo -e $TEXT_YELLOW
 echo 'Copy files to folder'
 echo -e $TEXT_RESET
