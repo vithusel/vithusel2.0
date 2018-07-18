@@ -1,0 +1,62 @@
+/* The Modal (background) */
+.modalpopup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 200; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	overflow-x: hidden;
+	overflow-y:hidden; 
+	
+	
+}
+
+/* Modal Content/Box */
+.modal-contentpopup {
+    background-color: #242943;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 95%;
+    height: 91%;
+    min-height: 650px;	/* Could be more or less, depending on screen size */
+	display: block; 
+	margin: 50px auto;
+}
+
+/* The Close Button */
+.closepopup {
+    color: #aaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.closepopup:hover,
+.closepopup:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ /* Style buttons */
+.btnpopup {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  font-size: 14px;
+  opacity: 100;
+
+}
+
+/* Darker background on mouse-over */
+.btnpopup:hover {
+  background-color: RoyalBlue;
+  opacity: 100;
+} 

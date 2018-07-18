@@ -1,0 +1,3 @@
+Projects pages to be merged into a single page with basic descriptions.
+Link to another page that will explain project in detail and have attached all project files
+Setup HAPROXY (loadbalancer)
