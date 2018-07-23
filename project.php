@@ -44,6 +44,7 @@ include_once "everypage/header.php";
 									<header class="major">
 										<h3>Pi Apache</h3>
 										<p>This very website</p>
+										<p></p>
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div1" class="popup" style="display:none;">
@@ -58,6 +59,7 @@ include_once "everypage/header.php";
 									</span>
 									<header class="major">
 										<h3>Pepper Tab</h3>
+										<p></p>
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div2" class="popup" style="display:none;">
@@ -73,6 +75,7 @@ include_once "everypage/header.php";
 									<header class="major">
 										<h3>Handheld console / Unix Machine</h3>
 										<p>Have a look at the projects i have worked on</p>
+										<p></p>
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div3" class="popup" style="display:none;">
@@ -87,6 +90,7 @@ include_once "everypage/header.php";
 									</span>
 									<header class="major">
 										<h3>Retro Console</h3>
+										<p></p>
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div4" class="popup" style="display:none;">
@@ -102,6 +106,7 @@ include_once "everypage/header.php";
 									<header class="major">
 										<h3>Scripting</h3>
 										<p>Have a look at the projects i have worked on</p>
+										<p></p>
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div5" class="popup" style="display:none;">
@@ -116,6 +121,7 @@ include_once "everypage/header.php";
 									</span>
 									<header class="major">
 										<h3>Custom OS for android Devices</h3>
+										<p></p>
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div6" class="popup" style="display:none;">
