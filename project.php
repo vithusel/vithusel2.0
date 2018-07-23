@@ -45,9 +45,8 @@ include_once "everypage/header.php";
 										<h3>Pi Apache</h3>
 										<p>This very website</p>
 										<p></p>
-                                         <button onClick="openPopup(this);">View Project Files</button>
+                                         <button class="popup-trigger" rel="nofollow">View Project Files</button>
 
-                                         <div id="div1" class="popup" style="display:none;">
                                             This is a test message div2
                                          <div class="cancel" onclick="closePopup();"></div>
                                         </div>
@@ -123,8 +122,7 @@ include_once "everypage/header.php";
 										<h3>Custom OS for android Devices</h3>
 										<p></p>
                                          <button onClick="openPopup(this);">View Project Files</button>
-
-                                         <div id="div6" class="popup" style="display:none;">
+                                         <div class="popup">
                                             This is a test message div2
                                          <div class="cancel" onclick="closePopup();"></div>
                                         </div>										
