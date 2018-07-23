@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/php5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/login.css" />	
+		<link rel="stylesheet" href="assets/css/projectpopup.css" />		
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -44,6 +44,20 @@ include_once "everypage/header.php";
 									<header class="major">
 										<h3><a href="project.php" class="link">Pi Apache</a></h3>
 										<p>This very website</p>
+										<button onClick="openPopup(this);">open div1</button>
+
+<div id="div1" class="popup" style="display:none;">
+    This is a test message div1
+    <div class="cancel" onclick="closePopup();"></div>
+</div>
+
+
+<button onClick="openPopup(this);">open div2</button>
+
+<div id="div2" class="popup" style="display:none;">
+    This is a test message div2
+    <div class="cancel" onclick="closePopup();"></div>
+</div>
 									</header>
 								</article>
 								<article>
@@ -114,5 +128,6 @@ include_once "everypage/header.php";
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>	
+			<script src="assets/js/projectpopup.js"></script>				
 	</body>
 </php>
