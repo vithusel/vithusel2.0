@@ -48,7 +48,7 @@ include_once "everypage/header.php";
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/contactme.png" alt="" />
+										<img src="images/PepperTab.jpg" alt="" />
 									</span>
 									<header class="major">
 										<h3><a href="contact.php" class="link"></a>Pepper Tab</h3>
@@ -59,13 +59,13 @@ include_once "everypage/header.php";
 										<img src="images/RaspberryPi.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="project.php" class="link">Wii U</a></h3>
+										<h3><a href="project.php" class="link">Handheld console / Unix Machine</a></h3>
 										<p>Have a look at the projects i have worked on</p>
 									</header>
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/contactme.png" alt="" />
+										<img src="images/PS1.jpg" alt="" />
 									</span>
 									<header class="major">
 										<h3><a href="contact.php" class="link"></a>Retro Console</h3>
@@ -73,7 +73,7 @@ include_once "everypage/header.php";
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/RaspberryPi.jpg" alt="" />
+										<img src="images/Script.jpg" alt="" />
 									</span>
 									<header class="major">
 										<h3><a href="project.php" class="link">Scripting</a></h3>
@@ -82,10 +82,10 @@ include_once "everypage/header.php";
 								</article>
 								<article>
 									<span class="image">
-										<img src="images/contactme.png" alt="" />
+										<img src="images/android.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="contact.php" class="link">Custom OS for android Device</a></h3>
+										<h3><a href="contact.php" class="link">Custom OS for android Devices</a></h3>
 									</header>
 								</article>							
 							</section>
