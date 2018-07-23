@@ -64,8 +64,9 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWecywdkVNE8TZYKBSlGPazItOLOWw4Gc&callback=myMap"></script>
-<?php
-include_once "everypage/login.php";
-?>
-	</body>
+</php>
+</div>
+</section>
+</div>
+</body>
 </php>

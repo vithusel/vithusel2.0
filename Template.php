@@ -456,9 +456,6 @@ print 'It took ' + i + ' iterations to sort the deck.';
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-<?php
-include_once "everypage/login.php";
-?>			
+			<script src="assets/js/main.js"></script>	
 	</body>
 </php>
