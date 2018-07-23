@@ -42,7 +42,7 @@ include_once "everypage/header.php";
 										<img src="images/RaspberryPi.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a onClick="openPopup(this);">Pi Apache</a></h3>
+										<h3><a href="javascript:openPopup(this);">Pi Apache</a></h3>
 										<p>This very website</p>
 
                                         <div id="div1" class="popup" style="display:none;">
