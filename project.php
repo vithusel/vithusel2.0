@@ -57,7 +57,7 @@ include_once "everypage/header.php";
 										<img src="images/PepperTab.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="contact.php" class="link"></a>Pepper Tab</h3>
+										<h3>Pepper Tab</h3>
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div2" class="popup" style="display:none;">
@@ -71,7 +71,7 @@ include_once "everypage/header.php";
 										<img src="images/RaspberryPi.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="project.php" class="link">Handheld console / Unix Machine</a></h3>
+										<h3>Handheld console / Unix Machine</h3>
 										<p>Have a look at the projects i have worked on</p>
                                          <button onClick="openPopup(this);">View Project Files</button>
 
@@ -86,7 +86,7 @@ include_once "everypage/header.php";
 										<img src="images/PS1.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="contact.php" class="link"></a>Retro Console</h3>
+										<h3>Retro Console</h3>
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div4" class="popup" style="display:none;">
@@ -100,7 +100,7 @@ include_once "everypage/header.php";
 										<img src="images/Script.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="project.php" class="link">Scripting</a></h3>
+										<h3>Scripting</h3>
 										<p>Have a look at the projects i have worked on</p>
                                          <button onClick="openPopup(this);">View Project Files</button>
 
@@ -115,7 +115,7 @@ include_once "everypage/header.php";
 										<img src="images/android.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="contact.php" class="link">Custom OS for android Devices</a></h3>
+										<h3>Custom OS for android Devices</h3>
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div6" class="popup" style="display:none;">
