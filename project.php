@@ -42,22 +42,21 @@ include_once "everypage/header.php";
 										<img src="images/RaspberryPi.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="project.php" class="link">Pi Apache</a></h3>
+										<h3><a onClick="openPopup(this);">Pi Apache</a></h3>
 										<p>This very website</p>
-										<button onClick="openPopup(this);">open div1</button>
 
-<div id="div1" class="popup" style="display:none;">
-    This is a test message div1
-    <div class="cancel" onclick="closePopup();"></div>
-</div>
+                                        <div id="div1" class="popup" style="display:none;">
+                                           This is a test message div1
+                                        <div class="cancel" onclick="closePopup();"></div>
+                                       </div>
 
 
-<button onClick="openPopup(this);">open div2</button>
+                                         <button onClick="openPopup(this);">open div2</button>
 
-<div id="div2" class="popup" style="display:none;">
-    This is a test message div2
-    <div class="cancel" onclick="closePopup();"></div>
-</div>
+                                         <div id="div2" class="popup" style="display:none;">
+                                            This is a test message div2
+                                         <div class="cancel" onclick="closePopup();"></div>
+                                        </div>
 									</header>
 								</article>
 								<article>
