@@ -33,87 +33,103 @@ include_once "everypage/header.php";
 						</div>
 					</section>
 
-				<!-- Main -->
-					<div id="main">
+<style>
+body, php {
+  height: 100%;
+  margin: 0;
+}
 
-						<!-- Two -->
-							<section id="two" class="spotlights">
-								<section>
-									<a class="image">
-										<img src="images/Script.jpg" alt="" data-position="center center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Past Projects</h3>
-											</header>
-											<p>Highlights of projects i have completed in the past</p>
-											<ul class="actions">
-												<li><a href="past.php" class="button">HighLights</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a class="image">
-										<img src="images/raspicam.jpg" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Current Projects</h3>
-											</header>
-											<p>Have a look at things im currently working on (including this very website)</p>
-											<ul class="actions">
-												<li><a href="current.php" class="button">Have a peek!</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a class="image">
-										<img src="images/PepperTab.jpg" alt="" data-position="25% 25%" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Planned Projects</h3>
-											</header>
-											<p>Things i have planned for the future</p>
-											<ul class="actions">
-												<li><a href="planned.php" class="button">Interested?</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-							</section>
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<h5>Have a look at my Github and Linkedin</h5><li>
-								<a href="http://www.github.com/vithusel" target="_blank" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="http://www.linkedin.com/in/vithusel" target="_blank" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>							
-							</ul>
-							<sub> This website is powered by Raspberry Pi 3 Apache webserver</sub>
-							<p></p>
-							<sub><small> Design is forked from "HTML5UP" by Forty with my own changes added</small></sub>
-							</div>
-					</footer>
+}
+.bgimg-1 {
+  background-image: url("images/RaspberryPi.jpg");
+  min-height: 100%;
+}
 
-			</div>
+.bgimg-2 {
+  background-image: url("images/securitysystem.jpg");
+  min-height: 100%;
+}
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>	
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">Pi Apache</span>
+  </div>
+</div>
+
+<div style="color: #ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
+  <p>This website you are currently on is being run off of a Raspberry pi running Raspbian Apache. The original site is based off of "HTML5UP's" design which i have heavily edited. My hopes for this site is a teaching tool for myself to learn some basic web design languages such as python and java you can see the code for this site on my Github</p>
+</div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="font-size:25px;color: #f7f7f7;">Smart Home Security</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color: #ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>One of the projects im currently working on it smartifiying my home using the raspberry pi. Although there a plenty of exisiting solutions available i intend on with starting one from scratch or modifying a existing system to include the following:	</p>
+    <ul>
+	   <li>Nightvision camera</Li>
+       <li>Ability to check the identity of person within the property</Li>
+       <li>Ability to notify my phone when a unauthorised person has been detected</Li>
+       <li>Heat sensor to act as secondary alarm to notify my of fire if no-one is home</Li>
+	</div>
+</div>
+
+
+    <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/jquery.scrollex.min.js"></script>
+      <script src="assets/js/skel.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+      <script src="assets/js/main.js"></script>
 <?php
 include_once "everypage/login.php";
 ?>
-	</body>
+</body>
 </php>
