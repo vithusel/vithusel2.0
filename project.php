@@ -36,56 +36,58 @@ include_once "everypage/header.php";
 				<!-- Main -->
 					<div id="main">
 
-						<!-- Two -->
-							<section id="two" class="spotlights">
-								<section>
-									<a class="image">
-										<img src="images/Script.jpg" alt="" data-position="center center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Past Projects</h3>
-											</header>
-											<p>Highlights of projects i have completed in the past</p>
-											<ul class="actions">
-												<li><a href="past.php" class="button">HighLights</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a class="image">
-										<img src="images/raspicam.jpg" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Current Projects</h3>
-											</header>
-											<p>Have a look at things im currently working on (including this very website)</p>
-											<ul class="actions">
-												<li><a href="current.php" class="button">Have a peek!</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
-								<section>
-									<a class="image">
-										<img src="images/PepperTab.jpg" alt="" data-position="25% 25%" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Planned Projects</h3>
-											</header>
-											<p>Things i have planned for the future</p>
-											<ul class="actions">
-												<li><a href="planned.php" class="button">Interested?</a></li>
-											</ul>
-										</div>
-									</div>
-								</section>
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/RaspberryPi.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="project.php" class="link">Pi Apache</a></h3>
+										<p>This very website</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/contactme.png" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="contact.php" class="link"></a>Pepper Tab</h3>
+									</header>
+								</article>		
+								<article>
+									<span class="image">
+										<img src="images/RaspberryPi.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="project.php" class="link">Wii U</a></h3>
+										<p>Have a look at the projects i have worked on</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/contactme.png" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="contact.php" class="link"></a>Retro Console</h3>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/RaspberryPi.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="project.php" class="link">Scripting</a></h3>
+										<p>Have a look at the projects i have worked on</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/contactme.png" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="contact.php" class="link">Custom OS for android Device</a></h3>
+									</header>
+								</article>							
 							</section>
 
 				<!-- Footer -->
