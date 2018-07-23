@@ -1,18 +1,12 @@
 .popup {
-    position:fixed;
-    top:0px;
-    left:0px;
-	bottom:0px;
-	right:0px;	
-    margin:auto;
-    width:200px;
-    height:150px;
-    font-family:verdana;
-    font-size:13px;
-    padding:10px;
-    background-color:rgb(240,240,240);
-    border:2px solid grey;
-    z-index:100000000000000000;
+    background-color: #242943;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 95%;
+    height: 91%;
+    min-height: 650px;  /* Could be more or less, depending on screen size */
+    display: block; 
+    margin: 50px auto;
 }
     
 .cancel {
