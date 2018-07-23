@@ -42,18 +42,11 @@ include_once "everypage/header.php";
 										<img src="images/RaspberryPi.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="javascript:openPopup(this);">Pi Apache</a></h3>
+										<h3>Pi Apache</h3>
 										<p>This very website</p>
+                                         <button onClick="openPopup(this);">View Project Files</button>
 
-                                        <div id="div1" class="popup" style="display:none;">
-                                           This is a test message div1
-                                        <div class="cancel" onclick="closePopup();"></div>
-                                       </div>
-
-
-                                         <button onClick="openPopup(this);">open div2</button>
-
-                                         <div id="div2" class="popup" style="display:none;">
+                                         <div id="div1" class="popup" style="display:none;">
                                             This is a test message div2
                                          <div class="cancel" onclick="closePopup();"></div>
                                         </div>
@@ -65,6 +58,12 @@ include_once "everypage/header.php";
 									</span>
 									<header class="major">
 										<h3><a href="contact.php" class="link"></a>Pepper Tab</h3>
+                                         <button onClick="openPopup(this);">View Project Files</button>
+
+                                         <div id="div2" class="popup" style="display:none;">
+                                            This is a test message div2
+                                         <div class="cancel" onclick="closePopup();"></div>
+                                        </div>										
 									</header>
 								</article>		
 								<article>
@@ -74,6 +73,12 @@ include_once "everypage/header.php";
 									<header class="major">
 										<h3><a href="project.php" class="link">Handheld console / Unix Machine</a></h3>
 										<p>Have a look at the projects i have worked on</p>
+                                         <button onClick="openPopup(this);">View Project Files</button>
+
+                                         <div id="div3" class="popup" style="display:none;">
+                                            This is a test message div2
+                                         <div class="cancel" onclick="closePopup();"></div>
+                                        </div>										
 									</header>
 								</article>
 								<article>
@@ -82,6 +87,12 @@ include_once "everypage/header.php";
 									</span>
 									<header class="major">
 										<h3><a href="contact.php" class="link"></a>Retro Console</h3>
+                                         <button onClick="openPopup(this);">View Project Files</button>
+
+                                         <div id="div4" class="popup" style="display:none;">
+                                            This is a test message div2
+                                         <div class="cancel" onclick="closePopup();"></div>
+                                        </div>										
 									</header>
 								</article>
 								<article>
@@ -91,6 +102,12 @@ include_once "everypage/header.php";
 									<header class="major">
 										<h3><a href="project.php" class="link">Scripting</a></h3>
 										<p>Have a look at the projects i have worked on</p>
+                                         <button onClick="openPopup(this);">View Project Files</button>
+
+                                         <div id="div5" class="popup" style="display:none;">
+                                            This is a test message div2
+                                         <div class="cancel" onclick="closePopup();"></div>
+                                        </div>									
 									</header>
 								</article>
 								<article>
@@ -99,6 +116,12 @@ include_once "everypage/header.php";
 									</span>
 									<header class="major">
 										<h3><a href="contact.php" class="link">Custom OS for android Devices</a></h3>
+                                         <button onClick="openPopup(this);">View Project Files</button>
+
+                                         <div id="div6" class="popup" style="display:none;">
+                                            This is a test message div2
+                                         <div class="cancel" onclick="closePopup();"></div>
+                                        </div>										
 									</header>
 								</article>							
 							</section>
