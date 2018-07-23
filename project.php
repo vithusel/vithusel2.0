@@ -33,6 +33,7 @@ include_once "everypage/header.php";
 						</div>
 					</section>
 
+<<<<<<< HEAD
 <style>
 body, php {
   height: 100%;
@@ -128,8 +129,89 @@ h3 {
       <script src="assets/js/util.js"></script>
       <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
       <script src="assets/js/main.js"></script>
+=======
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a class="image">
+										<img src="images/Script.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Past Projects</h3>
+											</header>
+											<p>Highlights of projects i have completed in the past</p>
+											<ul class="actions">
+												<li><a href="past.php" class="button">HighLights</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="images/raspicam.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Current Projects</h3>
+											</header>
+											<p>Have a look at things im currently working on (including this very website)</p>
+											<ul class="actions">
+												<li><a href="current.php" class="button">Have a peek!</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="images/PepperTab.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Planned Projects</h3>
+											</header>
+											<p>Things i have planned for the future</p>
+											<ul class="actions">
+												<li><a href="planned.php" class="button">Interested?</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<h5>Have a look at my Github and Linkedin</h5><li>
+								<a href="http://www.github.com/vithusel" target="_blank" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="http://www.linkedin.com/in/vithusel" target="_blank" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>							
+							</ul>
+							<sub> This website is powered by Raspberry Pi 3 Apache webserver</sub>
+							<p></p>
+							<sub><small> Design is forked from "HTML5UP" by Forty with my own changes added</small></sub>
+							</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>	
+>>>>>>> parent of 64e7060... Start merging projects into one folder
 <?php
 include_once "everypage/login.php";
 ?>
-</body>
+	</body>
 </php>
