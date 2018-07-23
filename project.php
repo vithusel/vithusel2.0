@@ -110,7 +110,7 @@ h3 {
 
 <div style="position:relative;">
   <div style="color: #ddd;background-color:#242943;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>One of the projects im currently working on it smartifiying my home using the raspberry pi. Although there a plenty of exisiting solutions available i intend on with starting one from scratch or modifying a existing system to include the following:	</p>
+    <p>One of the projects im currently working on it smartifiying my home using the raspberry pi. Although there a plenty of existing solutions available i intend on with starting one from scratch or modifying a existing system to include the following:	</p>
     <ul>
 	   <li>Nightvision camera</Li>
        <li>Ability to check the identity of person within the property</Li>
