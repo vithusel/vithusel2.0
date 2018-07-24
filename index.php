@@ -67,23 +67,6 @@ include_once "everypage/header.php";
 										<h3><a href="current.php" class="link">Current Projects</a></h3>
 										<p>Things im currently working on</p>
 									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/PepperTab.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="planned.php" class="link">Planned Projects</a></h3>
-										<p>Whats in the pipeline?</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/contactme.png" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="contact.php" class="link"></a>Contact Details</h3>
-									</header>
 								</article>								
 							</section>
 
