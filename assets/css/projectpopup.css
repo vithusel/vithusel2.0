@@ -1,12 +1,12 @@
 .popup {
     position:fixed;
-    top:0px;
+    top:70px;
     left:0px;
 	bottom:0px;
 	right:0px;	
     margin:auto;
     width:95%;
-    height:91%;
+    height:90%;
     min-height: 650px;
     padding:20px;
     background-color: #242943;
