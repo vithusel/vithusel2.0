@@ -48,7 +48,7 @@ include_once "everypage/header.php";
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div1" class="popup" style="display:none;">
-                                            This is a test message div2
+                                            Test1
                                          <div class="cancel" onclick="closePopup();"></div>
                                         </div>
 									</header>
@@ -63,7 +63,7 @@ include_once "everypage/header.php";
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div2" class="popup" style="display:none;">
-                                            This is a test message div2
+                                            Test2
                                          <div class="cancel" onclick="closePopup();"></div>
                                         </div>										
 									</header>
@@ -79,7 +79,7 @@ include_once "everypage/header.php";
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div3" class="popup" style="display:none;">
-                                            This is a test message div2
+                                            Test3
                                          <div class="cancel" onclick="closePopup();"></div>
                                         </div>										
 									</header>
@@ -94,7 +94,7 @@ include_once "everypage/header.php";
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div4" class="popup" style="display:none;">
-                                            This is a test message div2
+                                            Test4
                                          <div class="cancel" onclick="closePopup();"></div>
                                         </div>										
 									</header>
@@ -110,7 +110,7 @@ include_once "everypage/header.php";
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div5" class="popup" style="display:none;">
-                                            This is a test message div2
+                                            Test5
                                          <div class="cancel" onclick="closePopup();"></div>
                                         </div>									
 									</header>
@@ -125,7 +125,7 @@ include_once "everypage/header.php";
                                          <button onClick="openPopup(this);">View Project Files</button>
 
                                          <div id="div6" class="popup" style="display:none;">
-                                            This is a test message div2
+                                            Test6
                                          <div class="cancel" onclick="closePopup();"></div>
                                         </div>										
 									</header>
