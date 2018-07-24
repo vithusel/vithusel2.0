@@ -111,7 +111,7 @@ include_once "everypage/header.php";
 
                                          <div id="div5" class="popup" style="display:none;">
                                             Test5
-                                         <div class="cancel" onclick="closePopup();">X</div>
+                                         <span class="cancel" onclick="closePopup();">X</div>
                                         </div>									
 									</header>
 								</article>
