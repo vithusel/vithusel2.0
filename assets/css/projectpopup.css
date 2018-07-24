@@ -34,4 +34,8 @@
 
 .cancel:hover {
     background:rgb(255,50,50);
+	color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
 }
