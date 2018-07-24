@@ -7,3 +7,10 @@
 - Optimzing loading speeds and any visual glitches
 
 - Revamp homepage to be more interactive
+
+- Change background colour to something more to my liking
+
+- fix issue with popup boxes not being completely on top
+
+
+
