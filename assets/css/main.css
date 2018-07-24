@@ -3496,7 +3496,6 @@ title {
 
 		#banner > .inner {
 			transition: opacity 1.5s ease, transform 0.5s ease-out;
-			padding: 0 !important;
 			position: relative;
 			z-index: 2;
 			display: hidden;
@@ -3821,6 +3820,7 @@ title {
 			margin:auto;
 			max-width: 65em;
 			width: max-content;
+			padding: inherit
 		}
 
 			@media screen and (max-width: 736px) {
