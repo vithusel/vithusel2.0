@@ -3511,7 +3511,7 @@ title {
 			}
 
 				#banner > .inner header > :first-child {
-					width: auto;
+					width: fit-content;
 				}
 
 					#banner > .inner header > :first-child:after {
@@ -3818,10 +3818,10 @@ title {
 		}
 
 		#wrapper > * > .inner {
-			padding: 4em 0 2em 0 ;
+			padding: 12em 5em ;
 			margin: 0 auto;
 			max-width: 65em;
-			width: calc(100% - 6em);
+			width: 410;
 		}
 
 			@media screen and (max-width: 736px) {
