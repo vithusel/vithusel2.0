@@ -70,7 +70,7 @@ include_once "everypage/header.php";
 								</article>		
 								<article>
 									<span class="image">
-										<img src="images/RaspberryPi.jpg" alt="" />
+										<img src="images/wiiu.jpg" alt="" />
 									</span>
 									<header class="major">
 										<h3>Handheld console / Unix Machine</h3>
