@@ -3496,7 +3496,7 @@ title {
 
 		#banner > .inner {
 			transition: opacity 1.5s ease, transform 0.5s ease-out;
-			padding: 0 !important;
+			padding: 192 1 !important;
 			position: relative;
 			z-index: 2;
 			display: hidden;
