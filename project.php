@@ -49,7 +49,7 @@ include_once "everypage/header.php";
 
                                          <div id="div1" class="popup" style="display:none;">
                                             Test1
-                                         <div class="cancel" onclick="closePopup();"></div>
+                                         <div class="cancel" onclick="closePopup();">x</div>
                                         </div>
 									</header>
 								</article>
@@ -64,7 +64,7 @@ include_once "everypage/header.php";
 
                                          <div id="div2" class="popup" style="display:none;">
                                             Test2
-                                         <div class="cancel" onclick="closePopup();"></div>
+                                         <div class="cancel" onclick="closePopup();">x</div>
                                         </div>										
 									</header>
 								</article>		
@@ -80,7 +80,7 @@ include_once "everypage/header.php";
 
                                          <div id="div3" class="popup" style="display:none;">
                                             Test3
-                                         <div class="cancel" onclick="closePopup();"></div>
+                                         <div class="cancel" onclick="closePopup();">x</div>
                                         </div>										
 									</header>
 								</article>
@@ -95,7 +95,7 @@ include_once "everypage/header.php";
 
                                          <div id="div4" class="popup" style="display:none;">
                                             Test4
-                                         <div class="cancel" onclick="closePopup();"></div>
+                                         <div class="cancel" onclick="closePopup();">x</div>
                                         </div>										
 									</header>
 								</article>
@@ -111,7 +111,7 @@ include_once "everypage/header.php";
 
                                          <div id="div5" class="popup" style="display:none;">
                                             Test5
-                                         <div class="cancel" onclick="closePopup();"></div>
+                                         <div class="cancel" onclick="closePopup();">x</div>
                                         </div>									
 									</header>
 								</article>
@@ -126,7 +126,7 @@ include_once "everypage/header.php";
 
                                          <div id="div6" class="popup" style="display:none;">
                                             Test6
-                                         <div class="cancel" onclick="closePopup();"></div>
+                                         <div class="cancel" onclick="closePopup();">x</div>
                                         </div>										
 									</header>
 								</article>							
