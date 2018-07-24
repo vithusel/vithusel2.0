@@ -52,11 +52,29 @@ include_once "everypage/header.php";
 							<section id="one" class="tiles">
 								<article>
 									<span class="image">
+										<img src="images/Script.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="past.php" class="link">Past Projects</a></h3>
+										<p>What i have acompished in the past</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
 										<img src="images/RaspberryPi.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="project.php" class="link">Projects</a></h3>
-										<p>Have a look at the projects i have worked on</p>
+										<h3><a href="current.php" class="link">Current Projects</a></h3>
+										<p>Things im currently working on</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/PepperTab.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="planned.php" class="link">Planned Projects</a></h3>
+										<p>Whats in the pipeline?</p>
 									</header>
 								</article>
 								<article>
@@ -93,5 +111,8 @@ include_once "everypage/header.php";
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+<?php
+include_once "everypage/login.php";
+?>
 	</body>
 </php>
