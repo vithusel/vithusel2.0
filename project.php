@@ -121,24 +121,6 @@ include_once "everypage/header.php";
                                          <div class="cancel" onclick="closePopup();">x</div>                                            
 											<h3>Test1</h3>
 										 <embed src="/web/viewer.html?file=../Files/Download/CV.pdf" style="width:100%; height:87%"></embed>	
-										 <button id="load-button">Load PDF</button> 
-
-<div id="pdf-main-container">
-	<div id="pdf-loader">
-		<div id="pdf-loading-bar"><div id="pdf-loading-completed"></div></div>
-	</div>
-	<div id="pdf-contents">
-		<div id="pdf-meta">
-			<div id="pdf-buttons">
-				<button id="pdf-prev">Previous</button>
-				<button id="pdf-next">Next</button>
-			</div>
-			<div id="page-count-container">Page <div id="pdf-current-page"></div> of <div id="pdf-total-pages"></div></div>
-		</div>
-		<canvas id="pdf-canvas" width="400"></canvas>
-		<div id="page-loader">Loading page ...</div>
-	</div>
-</div>
                                         </div>
 										
                                          <div id="div2" class="popup" style="display:none;">
