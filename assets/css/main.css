@@ -2797,8 +2797,8 @@ title {
 			}
 
 			.tiles article header {
-				position: relative;
-				z-index: 3;
+				position: absolute;
+				z-index: 2;
 			}
 
 			.tiles article h3 {
@@ -3464,6 +3464,7 @@ title {
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
+	    z-index: 1;
 	}
 
 		#banner:after {
