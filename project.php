@@ -45,7 +45,7 @@ include_once "everypage/header.php";
 										<h3>Pi Apache</h3>
 										<p>This very website</p>
 										<p></p>
-                                         <button onClick="openPopup("div1");">View Project Files</button>
+                                         <button onClick="openPopup('div1');">View Project Files</button>
 
 
 									</header>
