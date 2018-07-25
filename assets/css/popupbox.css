@@ -30,17 +30,29 @@
 
 /* The Close Button */
 .closepopup {
-    color: #aaa;
-    float: right;
-    font-size: 25px;
-    font-weight: bold;
+    display:relative;
+    cursor:pointer;
+    margin:0;
+    float:right;
+    height:20px;
+    width:28px;
+    padding:0 0 5px 0;
+    background-color:red;
+    text-align:center;
+    font-weight:bold;
+    font-size:11px;
+    color:white;
+    border-radius:3px;
+    z-index:100000000000000000;
 }
 
 .closepopup:hover,
 .closepopup:focus {
-    color: black;
+    background:rgb(255,50,50);
+	color: black;
     text-decoration: none;
     cursor: pointer;
+}
 }
 
  /* Style buttons */
