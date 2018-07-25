@@ -25,7 +25,7 @@ include_once "everypage/header.php";
 
 				<!-- Banner -->
 					<section id="banner" class="major">
-						<div class="inner" style="display: hidden">
+						<div class="inner" style="display: none">
 							<header class="major" >
 								<h1>Hi, my name is Vit</h1>  
 								<span class="image">
