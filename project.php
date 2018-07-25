@@ -45,12 +45,9 @@ include_once "everypage/header.php";
 										<h3>Pi Apache</h3>
 										<p>This very website</p>
 										<p></p>
-                                         <button onClick="openPopup(this);">View Project Files</button>
+                                         <button onClick="openPopup("div1");">View Project Files</button>
 
-                                         <div id="div1" class="popup" style="display:none;">
-                                            Test1
-                                         <div class="cancel" onclick="closePopup();">x</div>
-                                        </div>
+
 									</header>
 								</article>
 								<article>
@@ -147,7 +144,10 @@ include_once "everypage/header.php";
 					</footer>
 
 			</div>
-
+                                         <div id="div1" class="popup" style="display:none;">
+                                            Test1
+                                         <div class="cancel" onclick="closePopup();">x</div>
+                                        </div>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
