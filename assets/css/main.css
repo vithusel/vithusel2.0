@@ -2789,6 +2789,7 @@ title {
 			overflow: hidden;
 			position: relative;
 			width: 40%;
+			z-index: 1;
 		}
 
 			.tiles article .image {
