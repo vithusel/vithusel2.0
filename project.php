@@ -130,14 +130,8 @@ include_once "everypage/header.php";
 
 			</div>
                                          <div id="div1" class="popup" style="display:none;">
-                                         <div class="cancel" onclick="closePopup();">&times;</div>                                            
+                                         <div class="cancel" onclick="closePopup();">x</div>                                            
 											<h3>Test1</h3>
-										 <div class="contentpopup">
-                                         <embed src="/web/viewer.html?file=../Files/Download/CV.pdf" style="width:100%; height:87%"></embed>	
-                                         <a href="/Files/Download/CV.pdf" download="Vithurshan Selvarajah - CV">
-                                         </a>
-
-                                 </div>	
                                         </div>
 										
                                          <div id="div2" class="popup" style="display:none;">
