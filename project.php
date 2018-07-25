@@ -46,8 +46,6 @@ include_once "everypage/header.php";
 										<p>This very website</p>
 										<p></p>
                                          <button onClick="openPopup('div1');">View Project Files</button>
-
-
 									</header>
 								</article>
 								<article>
@@ -58,9 +56,7 @@ include_once "everypage/header.php";
 										<h3>Pepper Tab</h3>
 										<p></p>
                                          <button onClick="openPopup('div2');">View Project Files</button>
-
-										
-									</header>
+										</header>
 								</article>		
 								<article>
 									<span class="image">
@@ -71,8 +67,6 @@ include_once "everypage/header.php";
 										<p>Have a look at the projects i have worked on</p>
 										<p></p>
                                          <button onClick="openPopup('div3');">View Project Files</button>
-
-									
 									</header>
 								</article>
 								<article>
@@ -83,8 +77,6 @@ include_once "everypage/header.php";
 										<h3>Retro Console</h3>
 										<p></p>
                                          <button onClick="openPopup('div4');">View Project Files</button>
-
-										
 									</header>
 								</article>
 								<article>
@@ -96,8 +88,6 @@ include_once "everypage/header.php";
 										<p>Have a look at the projects i have worked on</p>
 										<p></p>
                                          <button onClick="openPopup('div5');">View Project Files</button>
-
-								
 									</header>
 								</article>
 								<article>
@@ -108,8 +98,6 @@ include_once "everypage/header.php";
 										<h3>Custom OS for android Devices</h3>
 										<p></p>
                                          <button onClick="openPopup('div6');">View Project Files</button>
-
-									
 									</header>
 								</article>							
 							</section>
@@ -132,11 +120,13 @@ include_once "everypage/header.php";
                                          <div id="div1" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                            
 											<h3>Test1</h3>
+										 <embed src="/web/viewer.html?file=../Files/Download/CV.pdf" style="width:100%; height:87%"></embed>	
                                         </div>
 										
                                          <div id="div2" class="popup" style="display:none;">
-                                          <div class="cancel" onclick="closePopup();">x</div>                                           
+                                         <div class="cancel" onclick="closePopup();">x</div>                                           
 											<h3>Test2</h3>
+										 <embed src="/web/viewer.html?file=../Files/Download/PepperTab.pdf" style="width:100%; height:87%"></embed>											
                                         </div>
 
                                          <div id="div3" class="popup" style="display:none;">
