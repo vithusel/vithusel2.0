@@ -1,34 +1,22 @@
+/* The Modal (background) */
 .popup {
-    position:fixed;
-    top:70px;
-    left:0px;
-	bottom:0px;
-	right:0px;	
-    margin:auto;
-    width:95%;
-    height:90%;
-    min-height: 650px;
-    padding:20px;
-    background-color: #242943;
-    border:2px solid #888;
-    z-index:100000000000000000 !important;
-    display: block; 
-}
-    
-.cancel {
-    color: #aaa;
-    float: right;
-    font-size: 25px;
-    font-weight: bold;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 200; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	overflow-x: hidden;
+	overflow-y:hidden; 
+	
+	
 }
 
-.cancel:hover,
-.closepopup:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
+/* Modal Content/Box */
 .contentpopup {
     background-color: #242943;
     padding: 20px;
@@ -39,3 +27,36 @@
 	display: block; 
 	margin: 50px auto;
 }
+
+/* The Close Button */
+ .cancel {
+    color: #aaa;
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cancel:hover,
+.cancel:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ /* Style buttons */
+.btnpopup {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  font-size: 14px;
+  opacity: 100;
+
+}
+
+/* Darker background on mouse-over */
+.btnpopup:hover {
+  background-color: RoyalBlue;
+  opacity: 100;
+} 
