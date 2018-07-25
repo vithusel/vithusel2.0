@@ -130,33 +130,33 @@ include_once "everypage/header.php";
 
 			</div>
                                          <div id="div1" class="popup" style="display:none;">
-                                            Test1
-                                         <div class="cancel" onclick="closePopup();">x</div>
+                                         <div class="cancel" onclick="closePopup();">x</div>                                            
+											<h3>Test1</h3>
                                         </div>
 										
                                          <div id="div2" class="popup" style="display:none;">
-                                            Test2
-                                         <div class="cancel" onclick="closePopup();">x</div>
+                                          <div class="cancel" onclick="closePopup();">x</div>                                           
+											<h3>Test2</h3>
                                         </div>
 
                                          <div id="div3" class="popup" style="display:none;">
-                                            Test3
-                                         <div class="cancel" onclick="closePopup();">x</div>
+                                         <div class="cancel" onclick="closePopup();">x</div>                                            
+											<h3>Test3</h3>
                                         </div>	
 
                                          <div id="div4" class="popup" style="display:none;">
-                                            Test4
-                                         <div class="cancel" onclick="closePopup();">x</div>
+                                         <div class="cancel" onclick="closePopup();">x</div>                                            
+											<h3>Test4</h3>
                                         </div>
 
                                          <div id="div5" class="popup" style="display:none;">
-                                            Test5
-                                         <div class="cancel" onclick="closePopup();">x</div>
+                                         <div class="cancel" onclick="closePopup();">x</div>                                             
+											<h3>Test5</h3>
                                         </div>
 
                                          <div id="div6" class="popup" style="display:none;">
-                                            Test6
-                                         <div class="cancel" onclick="closePopup();">x</div>
+                                         <div class="cancel" onclick="closePopup();">x</div>  
+										    <h3>Test6</h3>
                                         </div>											
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
