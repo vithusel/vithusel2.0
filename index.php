@@ -61,8 +61,8 @@ include_once "everypage/header.php";
 										<img src="images/Script.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="past.php" class="link">Current Projects</a></h3>
-										<p>What i have acompished in the past</p>
+										<h3><a href="project.php" class="link">Projects</a></h3>
+										<p>Have a look at what i have been tinkering with</p>
 									</header>
 								</article>
 								<article>
@@ -70,8 +70,8 @@ include_once "everypage/header.php";
 										<img src="images/RaspberryPi.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="current.php" class="link"></a>Past Projects</h3>
-										<p>Things im currently working on</p>
+										<h3><a href="contact.php" class="link"></a>Contact Me</h3>
+										<p></p>
 									</header>
 								</article>								
 							</section>
