@@ -99,7 +99,7 @@ var mapProp= {
 var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWecywdkVNE8TZYKBSlGPazItOLOWw4Gc&callback=myMap"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZWH_ZbpwknBDDExUYW9AZEVLJo69vxAg&callback=myMap"></script>
 </php>
 </div>
 </section>
