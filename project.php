@@ -63,7 +63,7 @@ include_once "everypage/header.php";
 										<img src="images/wiiu.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3>Handheld console / Unix Machine</h3>
+										<h3>Console / Unix Machine</h3>
 										<p>Have a look at the projects i have worked on</p>
 										<p></p>
                                          <button onClick="openPopup('div3');">View Project Files</button>
