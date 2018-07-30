@@ -53,8 +53,7 @@ include_once "everypage/header.php";
 									</ul>
 								</div>
 							</section>
-
-					</div>		
+	
 					<!-- One -->
 							<section id="one" class="tiles">
 								<article>
