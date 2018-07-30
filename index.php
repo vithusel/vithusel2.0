@@ -4,7 +4,7 @@
 include_once "everypage/header.php";
 ?>
 	<head>
-	    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+	    <link rel="icon" type="image/jpg" href="images/logo.jpg">
 		<title>Home Page</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
