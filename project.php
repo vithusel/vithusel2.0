@@ -120,6 +120,13 @@ include_once "everypage/header.php";
                                          <div id="div1" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                            
 											<h3>Test1</h3>
+											<p> Below is the hostname of this server </p>
+											<?php
+echo gethostname(); // may output e.g,: sandie
+
+// Or, an option that also works before PHP 5.3
+echo php_uname('n'); // may output e.g,: sandie
+?>
 										 <embed src="/web/viewer.html?file=../Files/Download/CV.pdf" style="width:100%; height:87%"></embed>	
                                         </div>
 										
