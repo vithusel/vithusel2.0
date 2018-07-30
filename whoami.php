@@ -52,8 +52,6 @@ include_once "everypage/header.php";
 
 							</section>
 
-					</div>
-
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
@@ -68,6 +66,7 @@ include_once "everypage/header.php";
 							</div>
 					</footer>
 
+			</div>
 			</div>
 
 		<!-- Scripts -->

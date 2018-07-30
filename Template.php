@@ -432,8 +432,6 @@ print 'It took ' + i + ' iterations to sort the deck.';
 								</div>
 							</section>
 
-					</div>
-
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
@@ -448,7 +446,7 @@ print 'It took ' + i + ' iterations to sort the deck.';
 							</div>
 					</footer>
 			</div>
-
+</div>
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
