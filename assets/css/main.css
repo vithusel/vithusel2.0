@@ -3822,7 +3822,7 @@ title {
 			margin:auto;
 			max-width: 65em;
 			width: max-content;
-			padding: inherit
+			top: 50%;
 		}
 
 			@media screen and (max-width: 736px) {
