@@ -119,7 +119,7 @@ include_once "everypage/header.php";
                                          <div id="div1" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                            
 											<h3>Test1</h3>
-											<p> <?php echo php_uname('n');?>is the hostname of this server </p>
+											<p> <?php echo php_uname('n');?> is the hostname of this server </p>
 											
                                         </div>
 										
