@@ -40,7 +40,7 @@ if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.in
 if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
 return true; }
 </script>
-<table style="width:550px;border:0;" cellpadding="8" cellspacing="0">
+<table style="width:550px;border:0;color:red;" cellpadding="8" cellspacing="0">
 <tr> <td>
 <label for="Name">Name*:</label>
 </td> <td>
