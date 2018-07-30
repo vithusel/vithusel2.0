@@ -2,15 +2,12 @@
 
 - Revamp projects page to show more info about particular projects (popups and project files)
 
-- Setup HAPROXY (loadbalancer)
-
 - Optimzing loading speeds and any visual glitches
 
 - Revamp homepage to be more interactive
 
 - Change background colour to something more to my liking
 
-- fix issue with popup boxes not being completely on top
 
 
 

@@ -118,7 +118,8 @@ include_once "everypage/header.php";
 			</div>
                                          <div id="div1" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                            
-											<h3>Test1</h3>
+											<h3>Pi Apache</h3>
+											<p> This Webserver is running across 6 Raspberry Pi Zero's and a single Raspberry Pi 3B+. Amazingly the average daily cost to run this setup only comes to around £8 a year. This setup involves running haproxy as a loadbalancer. The main URL points to the 3B+ which then redirects the traffic to one of the 6 PiZero's. The hostname below will show which raspberry pi you are using to view this page. Try accessing the site from your phone and you will see that the hostname changes.</p>
 											<p> <?php echo php_uname('n');?> is the hostname of this server </p>
 											
                                         </div>
