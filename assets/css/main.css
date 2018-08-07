@@ -3500,7 +3500,6 @@ title {
 			transition: opacity 1.5s ease, transform 0.5s ease-out;
 			position: relative;
 			z-index: 2;
-			display: hidden;
 			-webkit-backface-visibility: hidden;
 		}
 

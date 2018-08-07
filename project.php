@@ -53,7 +53,7 @@ include_once "everypage/header.php";
 									</span>
 									<header class="major">
 										<h3>Pepper Tab</h3>
-										<p></p>
+										<p>Touch interface based Linux machine</p>
                                          <button onClick="openPopup('div2');">View Project Files</button>
 										</header>
 								</article>		
@@ -63,7 +63,7 @@ include_once "everypage/header.php";
 									</span>
 									<header class="major">
 										<h3>Console / Unix Machine</h3>
-										<p>Have a look at the projects i have worked on</p>
+										<p>Handheld linux/gaming machine/p>
 										<p></p>
                                          <button onClick="openPopup('div3');">View Project Files</button>
 									</header>
@@ -74,7 +74,6 @@ include_once "everypage/header.php";
 									</span>
 									<header class="major">
 										<h3>Retro Console</h3>
-										<p></p>
                                          <button onClick="openPopup('div4');">View Project Files</button>
 									</header>
 								</article>
@@ -84,7 +83,7 @@ include_once "everypage/header.php";
 									</span>
 									<header class="major">
 										<h3>Scripting</h3>
-										<p>Have a look at the projects i have worked on</p>
+										<p>Customise windows installations</p>
 										<p></p>
                                          <button onClick="openPopup('div5');">View Project Files</button>
 									</header>
@@ -119,8 +118,15 @@ include_once "everypage/header.php";
                                          <div id="div1" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                            
 											<h3>Pi Apache</h3>
-											<p> This Webserver is running across 6 Raspberry Pi Zero's and a single Raspberry Pi 3B+. Amazingly the average daily cost to run this setup only comes to around £8 a year. This setup involves running haproxy as a loadbalancer. The main URL points to the 3B+ which then redirects the traffic to one of the 6 PiZero's. The hostname below will show which raspberry pi you are using to view this page. Try accessing the site from your phone and you will see that the hostname changes.</p>
+											<p> This Webserver is running across a cluster of 6 Raspberry Pi Zero's and a single Raspberry Pi 3B+. Amazingly the average daily cost to run this setup only comes to around £8 a year. This setup involves running haproxy as a loadbalancer. The main URL points to the 3B+ which then redirects the traffic to one of the 6 PiZero's. The hostname below will show which raspberry pi you are using to view this page. Try accessing the site from another device and you will see that the hostname changes.</p>
 											<p> <?php echo php_uname('n');?> is the hostname of this server </p>
+
+											<p>This base wesbite was originally forked from a project known as "HTML5UP" by Forty. I used this website as a learning curve to be able to edit someone elses existing work since i find that i learn better by breaking code then making code from scratch. I stopped working on the original website when i reached a point that i could add new things to the site using things i have learnt so hopefully as time goes on i will continue to add/modify this website to a point that it is nothing like the original.</p>
+
+											<p>You can also have a look at the original version of this site be visiting the legacy site using this link</p>
+											<a href="www.legacy.vithusel.me" class="button next">Legacy Website</a>
+											<p> To view the sourcecode for this website and the legacy at my Github profile which you can find by clicking the link below</p>
+											<a href="http://www.github.com/vithusel" target="_blank" class="icon alt fa-github"><span class="label">GitHub</span></a></li>											
 											
                                         </div>
 										
@@ -138,11 +144,36 @@ include_once "everypage/header.php";
                                          <div id="div4" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                            
 											<h3>Test4</h3>
+											<h2 class="w3-center">Automatic Slideshow</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="images/android.jpg" style="width:100%">
+  <img class="mySlides" src="images/PS1.jpg" style="width:100%">
+  <img class="mySlides" src="images/wiiu.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
                                         </div>
 
                                          <div id="div5" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                             
-											<h3>Test5</h3>
+											<h3>Scripting</h3>
+										<p>This script consisted of Batch, Powershell mainly. i created this script to automate the setup of machines at my workplace so that i wouldnt have to spend as much time focusing on setting up machines and to be able to improve my efficiency. At the time of making this script i was unable to use a alternative tool such as windows ADK or SCCM due to the nature of the machines setup. However i am now working toward/learning how to use Windows ADK to be able to improve my automation even more when combined with a modified script.   	
                                         </div>
 
                                          <div id="div6" class="popup" style="display:none;">
