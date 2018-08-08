@@ -118,14 +118,14 @@ include_once "everypage/header.php";
                                          <div id="div1" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                            
 											<h3></h3>
-											<h2 class="">PiApache</h2>
+											<h2 class="">Pi Apache</h2>
 											<p> This Webserver is running across a cluster of 6 Raspberry Pi Zero's and a single Raspberry Pi 3B+. Amazingly the average daily cost to run this setup only comes to around £8 a year. This setup involves running haproxy as a loadbalancer. The main URL points to the 3B+ which then redirects the traffic to one of the 6 PiZero's. The hostname below will show which raspberry pi you are using to view this page. Try accessing the site from another device and you will see that the hostname changes.</p>
 											<p> <?php echo php_uname('n');?> is the hostname of this server </p>
 
 											<p>This base wesbite was originally forked from a project known as "HTML5UP" by Forty. I used this website as a learning curve to be able to edit someone elses existing work since i find that i learn better by breaking code then making code from scratch. I stopped working on the original website when i reached a point that i could add new things to the site using things i have learnt so hopefully as time goes on i will continue to add/modify this website to a point that it is nothing like the original.</p>
 
 											<p>You can also have a look at the original version of this site be visiting the legacy site using this link</p>
-											<a href="www.legacy.vithusel.me" class="button next">Legacy Website</a>
+											<a href="http://www.legacy.vithusel.me" class="button next">Legacy Website</a>
 											<p> To view the sourcecode for this website and the legacy at my Github profile which you can find by clicking the link below</p>
 											<a href="http://www.github.com/vithusel" target="_blank" class="icon alt fa-github"><span class="label">GitHub</span></a></li>											
 											
