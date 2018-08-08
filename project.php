@@ -117,7 +117,8 @@ include_once "everypage/header.php";
 			</div>
                                          <div id="div1" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                            
-											<h3>Pi Apache</h3>
+											<h3></h3>
+											<h2 class="">PiApache</h2>
 											<p> This Webserver is running across a cluster of 6 Raspberry Pi Zero's and a single Raspberry Pi 3B+. Amazingly the average daily cost to run this setup only comes to around £8 a year. This setup involves running haproxy as a loadbalancer. The main URL points to the 3B+ which then redirects the traffic to one of the 6 PiZero's. The hostname below will show which raspberry pi you are using to view this page. Try accessing the site from another device and you will see that the hostname changes.</p>
 											<p> <?php echo php_uname('n');?> is the hostname of this server </p>
 
@@ -132,21 +133,23 @@ include_once "everypage/header.php";
 										
                                          <div id="div2" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                           
-											<h3>Test2</h3>
+											<h3></h3>
+											<h2 class="">Retro Console</h2>
 										 <embed src="/web/viewer.html?file=../Files/Download/PepperTab.pdf" style="width:100%; height:87%"></embed>											
                                         </div>
 
                                          <div id="div3" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                            
-											<h3>Test3</h3>
+											<h3></h3>
+											<h2 class="">Retro Console</h2>
                                         </div>	
 
                                          <div id="div4" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                            
-											<h3>Test4</h3>
-											<h2 class="w3-center">Automatic Slideshow</h2>
+											<h3></h3>
+											<h2 class="">Retro Console</h2>
 
-                                        <div class="w3-content w3-section" style="max-width:400px;margin-left: auto;margin-right: auto;">
+                                        <div class="" style="max-width:400px;margin-left: auto;margin-right: auto;">
                                           <img class="mySlides" src="images/android.jpg" style="width:100%">
                                           <img class="mySlides" src="images/PS1.jpg" style="width:100%">
                                           <img class="mySlides" src="images/wiiu.jpg" style="width:100%">
@@ -155,13 +158,15 @@ include_once "everypage/header.php";
 
                                          <div id="div5" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                             
-											<h3>Scripting</h3>
+											<h3></h3>
+											<h2 class="">Scripting</h2>
 										<p>This script consisted of Batch, Powershell mainly. i created this script to automate the setup of machines at my workplace so that i wouldnt have to spend as much time focusing on setting up machines and to be able to improve my efficiency. At the time of making this script i was unable to use a alternative tool such as windows ADK or SCCM due to the nature of the machines setup. However i am now working toward/learning how to use Windows ADK to be able to improve my automation even more when combined with a modified script.   	
                                         </div>
 
                                          <div id="div6" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>  
-										    <h3>Test6</h3>
+											<h3></h3>
+											<h2 class="">Retro Console</h2>
                                         </div>											
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
