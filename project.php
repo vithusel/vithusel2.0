@@ -146,28 +146,11 @@ include_once "everypage/header.php";
 											<h3>Test4</h3>
 											<h2 class="w3-center">Automatic Slideshow</h2>
 
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="images/android.jpg" style="width:100%">
-  <img class="mySlides" src="images/PS1.jpg" style="width:100%">
-  <img class="mySlides" src="images/wiiu.jpg" style="width:100%">
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
+                                        <div class="w3-content w3-section" style="max-width:400px;margin-left: auto;margin-right: auto;">
+                                          <img class="mySlides" src="images/android.jpg" style="width:100%">
+                                          <img class="mySlides" src="images/PS1.jpg" style="width:100%">
+                                          <img class="mySlides" src="images/wiiu.jpg" style="width:100%">
+                                        </div>
                                         </div>
 
                                          <div id="div5" class="popup" style="display:none;">
@@ -188,6 +171,7 @@ function carousel() {
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>	
-			<script src="assets/js/projectpopup.js"></script>				
+			<script src="assets/js/projectpopup.js"></script>	
+			<script src="assets/js/slideshow.js"></script>			
 	</body>
 </php>
