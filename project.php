@@ -150,9 +150,11 @@ include_once "everypage/header.php";
 											<h2 class="">Retro Console</h2>
 
                                         <div class="" style="max-width:400px;margin-left: auto;margin-right: auto;">
-                                          <img class="mySlides" src="images/android.jpg" style="width:100%">
-                                          <img class="mySlides" src="images/PS1.jpg" style="width:100%">
-                                          <img class="mySlides" src="images/wiiu.jpg" style="width:100%">
+                                          <img class="mySlides" src="images/PiStation/1.jpg" style="width:100%">
+										  <img class="mySlides" src="images/PiStation/2.jpg" style="width:100%">
+										  <img class="mySlides" src="images/PiStation/3.jpg" style="width:100%">
+										  <img class="mySlides" src="images/PiStation/4.jpg" style="width:100%">
+										  <img class="mySlides" src="images/PiStation/5.jpg" style="width:100%">
                                         </div>
                                         </div>
 
