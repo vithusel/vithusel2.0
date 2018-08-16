@@ -13,6 +13,8 @@ include_once "everypage/header.php";
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
+	
+	 <div class="preloader"></div>
 
 				<!-- Banner -->
 					<section id="banner" class="major">

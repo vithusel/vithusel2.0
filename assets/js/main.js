@@ -245,6 +245,10 @@
 					}
 
 			});
+			
+$(window).load(function() {
+   $('.preloader').fadeOut('slow');
+});			
 
 		// Menu.
 			var $menu = $('#menu'),
