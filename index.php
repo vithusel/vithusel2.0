@@ -13,8 +13,6 @@ include_once "everypage/header.php";
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body onload="myFunction()" style="margin:0;">
-	
-	<div id="loader"></div>
 
 				<!-- Banner -->
 					<section id="banner" class="major">
