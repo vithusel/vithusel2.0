@@ -245,17 +245,6 @@
 					}
 
 			});
-			
-var myVar;
-
-function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}			
 
 		// Menu.
 			var $menu = $('#menu'),
@@ -367,5 +356,17 @@ function showPage() {
 }	
 
 });
+
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+	
 
 })(jQuery);
