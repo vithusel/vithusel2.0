@@ -11,7 +11,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
-
+	 <div class="preloader"></div>
 <?php
 include_once "everypage/header.php";
 ?>

@@ -11,7 +11,8 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
-	<body
+	<body>
+	 <div class="preloader"></div>	
 <?php
 include_once "everypage/header.php";
 ?>
@@ -40,6 +41,7 @@ include_once "everypage/header.php";
 
                                  <!-- Modal content -->
                                  <div class="modal-contentpopup">
+								 	 <div class="preloader"></div>
                                  <span class="closepopup">&times;</span>
                                  <embed src="/web/viewer.html?file=../Files/Download/CV.pdf" style="width:100%; height:87%"></embed>	
                                  <a href="/Files/Download/CV.pdf" download="Vithurshan Selvarajah - CV">
