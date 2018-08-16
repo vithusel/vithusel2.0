@@ -41,7 +41,6 @@ include_once "everypage/header.php";
 
                                  <!-- Modal content -->
                                  <div class="modal-contentpopup">
-								 	 <div class="preloader"></div>
                                  <span class="closepopup">&times;</span>
                                  <embed src="/web/viewer.html?file=../Files/Download/CV.pdf" style="width:100%; height:87%"></embed>	
                                  <a href="/Files/Download/CV.pdf" download="Vithurshan Selvarajah - CV">
