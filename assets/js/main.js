@@ -247,7 +247,7 @@
 			});
 			
 $(window).load(function() {
-   $('.preloader').fadeOut('slow');
+   $('.preloader').delay(1500).fadeOut('slow');
 });			
 
 		// Menu.
