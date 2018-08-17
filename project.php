@@ -152,19 +152,19 @@ include_once "everypage/header.php";
 
                                         <div id="slideshow">
                                            <div>
-                                             <img src="/images/PiStation/1.jpg" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                                             <img src="/images/PiStation/1.jpg" style="margin-left: auto; margin-right: auto;">
                                            </div>
                                            <div>
-                                             <img src="/images/PiStation/2.jpg" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                                             <img src="/images/PiStation/2.jpg" style="margin-left: auto; margin-right: auto;">
                                            </div>
                                            <div>
-                                              <img src="/images/PiStation/3.jpg" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                                              <img src="/images/PiStation/3.jpg" style="margin-left: auto; margin-right: auto;">
                                            </div>
                                            <div>
-                                              <img src="/images/PiStation/4.jpg" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                                              <img src="/images/PiStation/4.jpg" style="margin-left: auto; margin-right: auto;">
                                            </div>
                                            <div>
-                                              <img src="/images/PiStation/5.jpg" style="top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                                              <img src="/images/PiStation/5.jpg" style="margin-left: auto; margin-right: auto;">
                                            </div>										   
                                         </div>
                                         </div>
