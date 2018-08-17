@@ -152,14 +152,20 @@ include_once "everypage/header.php";
 
                                         <div id="slideshow">
                                            <div>
-                                             <img src="//farm6.static.flickr.com/5224/5658667829_2bb7d42a9c_m.jpg">
+                                             <img src="/images/PiStation/1.jpg">
                                            </div>
                                            <div>
-                                             <img src="//farm6.static.flickr.com/5230/5638093881_a791e4f819_m.jpg">
+                                             <img src="/images/PiStation/2.jpg">
                                            </div>
                                            <div>
-                                              Pretty cool eh? This slide is proof the content can be anything.
+                                              <img src="/images/PiStation/3.jpg">
                                            </div>
+                                           <div>
+                                              <img src="/images/PiStation/4.jpg">
+                                           </div>
+                                           <div>
+                                              <img src="/images/PiStation/5.jpg">
+                                           </div>										   
                                         </div>
                                         </div>
 
