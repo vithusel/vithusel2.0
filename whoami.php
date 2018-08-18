@@ -26,7 +26,7 @@ include_once "everypage/header.php";
 									<header class="major">
 										<h1>Who am i?</h1>
 									</header>
-									<span class="image right body"><img src="images/selfie.jpg" alt="img" /></span>
+									<span class="image right body"><img src="images/selfie.jpg"/></span>
 									<p>I began my IT Career working in computers shops across Croydon, in some cases working free of charge in return for training. This helped me to learn how to repair various electronics by the use of problem tracing. I have working on devices ranging from Macbook Pro's to Cheap android tablets. I welcomed every task as each repair was a new lesson for myself. These skills i now use in DIY home projects such as modding older consoles or repairing my collection of vintage computers (Which im slowly growing)</p>
 									<p>The Second part to my Career came in the form of a level 3 apprenticeship in Networking and hardware which was then followed by working as a network engineering / support contractor. Contracting allowed me to lightly dip my feet into various sectors withing IT, I have had the opportunity to talk to people like System Admins (Linux and Windows), Programmers and even a Devops Engineer. I used my time contracting to help build a picture of where i want to be and set in motion the tasks required to help me acieve my goals/ </p>
 									    <h1>What those goals are you ask?</h1>
