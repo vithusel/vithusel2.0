@@ -63,7 +63,7 @@ include_once "everypage/header.php";
 										<img src="images/wiiu.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3>Console / Unix Machine</h3>
+										<h3>Console / Linux Machine</h3>
 										<p>Handheld linux/gaming machine/p>
 										<p></p>
                                          <button onClick="openPopup('div3');">View Project Files</button>
@@ -94,7 +94,7 @@ include_once "everypage/header.php";
 										<img src="images/android.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3>Custom OS for android Devices</h3>
+										<h3>Smart Doorbell</h3>
 										<p></p>
                                          <button onClick="openPopup('div6');">View Project Files</button>
 									</header>
@@ -135,14 +135,14 @@ include_once "everypage/header.php";
                                          <div id="div2" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                           
 											<h3></h3>
-											<h2 class="">Retro Console</h2>
+											<h2 class="">Pepper Tab</h2>
 										 <embed src="/web/viewer.html?file=../Files/Download/PepperTab.pdf" style="width:100%; height:87%"></embed>											
                                         </div>
 
                                          <div id="div3" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>                                            
 											<h3></h3>
-											<h2 class="">Retro Console</h2>
+											<h2 class="">Console / Linux Machine</h2>
                                         </div>	
 
                                          <div id="div4" class="popup" style="display:none;">
@@ -179,7 +179,7 @@ include_once "everypage/header.php";
                                          <div id="div6" class="popup" style="display:none;">
                                          <div class="cancel" onclick="closePopup();">x</div>  
 											<h3></h3>
-											<h2 class="">Retro Console</h2>
+											<h2 class="">Smart Doorbell</h2>
                                         </div>											
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
