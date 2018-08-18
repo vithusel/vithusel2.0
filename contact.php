@@ -55,9 +55,9 @@ include_once "everypage/header.php";
 			<script src="assets/js/main.js"></script>
 			<script>
 function myMap() {
-  var myCenter = new google.maps.LatLng(51.359488,-0.0966222);
+  var myCenter = new google.maps.LatLng(51.344273,-0.061532);
   var mapCanvas = document.getElementById("map");
-  var mapOptions = {center: myCenter, zoom: 10};
+  var mapOptions = {center: myCenter, zoom: 11};
   var map = new google.maps.Map(mapCanvas, mapOptions);
   var marker = new google.maps.Marker({position:myCenter});
   var marker = new google.maps.Marker({
