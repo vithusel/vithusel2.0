@@ -152,19 +152,19 @@ include_once "everypage/header.php";
 
                                         <div id="slideshow">
                                            <div>
-                                             <img src="/images/PiStation/1.jpg" style="position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); max-width: 100%; max-height: 100%; ">
+                                             <img src="/images/PiStation/1.jpg" style="background-size: 100% 200px; height: 200px">
                                            </div>
                                            <div>
-                                             <img src="/images/PiStation/2.jpg" style="position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); max-width: 100%; max-height: 100%; ">
+                                             <img src="/images/PiStation/2.jpg" style="background-size: 100% 200px; height: 200px">
                                            </div>
                                            <div>
-                                              <img src="/images/PiStation/3.jpg" style="position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); max-width: 100%; max-height: 100%; ">
+                                              <img src="/images/PiStation/3.jpg" style="background-size: 100% 200px; height: 200px">
                                            </div>
                                            <div>
-                                              <img src="/images/PiStation/4.jpg" style="position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); max-width: 100%; max-height: 100%; ">
+                                              <img src="/images/PiStation/4.jpg" style="background-size: 100% 200px; height: 200px">
                                            </div>
                                            <div>
-                                              <img src="/images/PiStation/5.jpg" style="position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); max-width: 100%; max-height: 100%; ">
+                                              <img src="/images/PiStation/5.jpg" style="background-size: 100% 200px; height: 200px">
                                            </div>										   
                                         </div>
                                         </div>
