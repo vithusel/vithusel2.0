@@ -126,9 +126,10 @@ include_once "everypage/header.php";
 											<p>This base wesbite was originally forked from a project known as "HTML5UP" by Forty. I used this website as a learning curve to be able to edit someone elses existing work since i find that i learn better by breaking code then making code from scratch. I stopped working on the original website when i reached a point that i could add new things to the site using things i have learnt so hopefully as time goes on i will continue to add/modify this website to a point that it is nothing like the original.</p>
 
 											<p>You can also have a look at the original version of this site be visiting the legacy site using this link</p>
-											<a href="http://legacy.vithusel.me" class="button next">Legacy Website</a>
+											<a href="http://legacy.vithusel.me" class="button next" target="_blank">Legacy Website</a>
+											<p></p>
 											<p> To view the sourcecode for this website and the legacy at my Github profile which you can find by clicking the link below</p>
-											<a href="http://www.github.com/vithusel" target="_blank" class="icon alt fa-github"><span class="label">GitHub</span></a></li>											
+											<a href="https://github.com/vithusel/vithusel2.0" class="button next" target="_blank">View Source Code</a>											
 											
                                         </div>
 										
