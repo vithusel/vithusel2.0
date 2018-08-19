@@ -18,14 +18,20 @@
 
 /* Modal Content/Box */
 .modal-contentpopup {
+    position:fixed;
+    top:10px;
     background-color: #242943;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 95%;
-    height: 91%;
-    min-height: 650px;	/* Could be more or less, depending on screen size */
-	display: block; 
-	margin: 50px auto;
+    border:2px solid #888;
+    border-radius: 15px;
+    z-index:100000000000000000 !important;
+    display: block; 
+    overflow: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 94%;
+    width: 100%; 
 }
 
 /* The Close Button */

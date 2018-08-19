@@ -137,7 +137,7 @@ include_once "everypage/header.php";
                                          <div class="cancel" onclick="closePopup();">x</div>                                           
 											<h3></h3>
 											<h2 class="">Pepper Tab</h2>
-										 <embed src="/web/viewer.html?file=../Files/Download/PepperTab.pdf" style="width:100%; height:87%"></embed>											
+										 <embed src="/web/viewer.html?file=../Files/Download/PepperTab.pdf" style="width:100%; height:71%"></embed>											
                                         </div>
 
                                          <div id="div3" class="popup" style="display:none;">
@@ -153,21 +153,22 @@ include_once "everypage/header.php";
 
                                         <div id="slideshow">
                                            <div>
-                                             <img src="/images/PiStation/1.jpg" style="background-size: 100% 200px; height: 200px">
+                                             <img src="/images/PiStation/1.jpg" style="background-size: 100% 100px; height: 100%; width: 100%">
                                            </div>
                                            <div>
-                                             <img src="/images/PiStation/2.jpg" style="background-size: 100% 200px; height: 200px">
+                                             <img src="/images/PiStation/2.jpg" style="background-size: 100% 200px; height: 100%; width: 100%">
                                            </div>
                                            <div>
-                                              <img src="/images/PiStation/3.jpg" style="background-size: 100% 200px; height: 200px">
+                                              <img src="/images/PiStation/3.jpg" style="background-size: 100% 200px; height: 100%; width: 100%">
                                            </div>
                                            <div>
-                                              <img src="/images/PiStation/4.jpg" style="background-size: 100% 200px; height: 200px">
+                                              <img src="/images/PiStation/4.jpg" style="background-size: 100% 200px; height: 100%; width: 100%">
                                            </div>
                                            <div>
-                                              <img src="/images/PiStation/5.jpg" style="background-size: 100% 200px; height: 200px">
+                                              <img src="/images/PiStation/5.jpg" style="background-size: 100% 200px; height: 100%; width: 100%">
                                            </div>										   
                                         </div>
+                                        <p>test text</p>
                                         </div>
 
                                          <div id="div5" class="popup" style="display:none;">
