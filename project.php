@@ -153,19 +153,19 @@ include_once "everypage/header.php";
 
                                         <div id="slideshow">
                                            <div>
-                                             <img src="/images/PiStation/1.jpg" style="background-size: 100% 100px; height: 100%; width: 100%">
+                                             <img src="/images/PiStation/1.jpg" style="width:100%;height:auto;background-repeat:no-repeat;background-size:cover">
+                                         </div>
+                                           <div>
+                                             <img src="/images/PiStation/2.jpg" style="width:100%;height:auto;background-repeat:no-repeat;background-size:cover">
                                            </div>
                                            <div>
-                                             <img src="/images/PiStation/2.jpg" style="background-size: 100% 200px; height: 100%; width: 100%">
+                                              <img src="/images/PiStation/3.jpg" style="width:100%;height:auto;background-repeat:no-repeat;background-size:cover">
                                            </div>
                                            <div>
-                                              <img src="/images/PiStation/3.jpg" style="background-size: 100% 200px; height: 100%; width: 100%">
+                                              <img src="/images/PiStation/4.jpg" style="width:100%;height:auto;background-repeat:no-repeat;background-size:cover">
                                            </div>
                                            <div>
-                                              <img src="/images/PiStation/4.jpg" style="background-size: 100% 200px; height: 100%; width: 100%">
-                                           </div>
-                                           <div>
-                                              <img src="/images/PiStation/5.jpg" style="background-size: 100% 200px; height: 100%; width: 100%">
+                                              <img src="/images/PiStation/5.jpg" style="width:100%;height:auto;background-repeat:no-repeat;background-size:cover">
                                            </div>										   
                                         </div>
                                         <p>test text</p>
