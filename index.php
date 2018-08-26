@@ -40,7 +40,7 @@ include_once "everypage/header.php";
 									<header class="major">
 										<h2>About me</h2>
 									</header>
-									<p>I am a IT enthusiast. I have worked from computer shops to MSP's. I am called a tinkerer by many who know me and that comes from my curiosity to know all. My skills range from Board repair to Cisco Networking and windows scripting.</p>
+									<p>I am a IT enthusiast. I have worked from computer shops to MSP's. I am called a tinkerer by many who know me and that comes from my curiosity to know all. My skills range from Board repair, Cisco Networking, Programming and Windows scripting.</p>
 									<ul class="actions">
 										<li><a href="whoami.php" class="button next">Find out more</a></li>
 									</ul>
