@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/php5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/css/popupbox.css" />			
+		<link rel="stylesheet" href="assets/css/projectpopup.css" />				
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -34,24 +34,13 @@ include_once "everypage/header.php";
 									<p> Most of the above things i don't want to do because it will get me good money or help me settle in life but because i want to be able to understand how things such as Cloud platforms work and to be able to tinker with my own linux servers and create Systems such as Home Automation for my own home. 
 								<h1>Have a look at my CV</h1>
                                  <!-- Trigger/Open The Modal -->
-                                 <button id="myBtnpopup">Preview CV</button>
-
-                                 <!-- The Modal -->
-                                 <div id="myModalpopup" class="modalpopup">
-
-                                 <!-- Modal content -->
-                                 <div class="modal-contentpopup">
-                                 <span class="closepopup">&times;</span>
-                                 <iframe src="/web/viewer.html?file=../Files/Download/CV.pdf" style="width:100%;   height: auto;min-height: 74% !important;"></iframe>	
+                                 <button onClick="openPopup('div1');">Preview CV</button>
+							</section>
+                                         <div id="div1" class="popup" style="display:none;">
+                                         <div class="cancel" onclick="closePopup();">x</div>                                 <iframe src="/web/viewer.html?file=../Files/Download/CV.pdf" style="width:100%;   height: auto;min-height: 74% !important;"></iframe>	
                                  <a href="/Files/Download/CV.pdf" download="Vithurshan Selvarajah - CV">
     	                         <button class="btnpopup" style="width:100%"><i class="fa fa-download"></i> Download</button>
-                                 </a>
-
-                                 </div>
-
-
-							</section>
-
+                                        </div>
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
@@ -77,6 +66,6 @@ include_once "everypage/header.php";
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/popupbox.js"></script>
+			<script src="assets/js/projectpopup.js"></script>	
 	</body>
 </php>
