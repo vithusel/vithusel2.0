@@ -25,6 +25,7 @@ title {
 		font: inherit;
 		vertical-align: baseline;
 	}
+	body
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -3676,7 +3677,14 @@ title {
 				max-width: 100em;
 				width: calc(100% - 6em);
 			}
-
+			#main > * > .nomargin {
+		        margin: 5;
+		        padding: 0;
+		        border: 0;
+		        font-size: 100%;
+		        font: inherit;
+		        vertical-align: baseline;
+	        }
 				@media screen and (max-width: 736px) {
 
 					#main > * > .inner {

@@ -27,22 +27,19 @@ include_once "everypage/header.php";
 										<h1>Who am i?</h1>
 									</header>
 									</div>
-								
+								<div class="nomargin">    
 									<span class="image right body"><img src="images/selfie.jpg"/></span>
 									<p>I began my IT Career working in computers shops across Croydon, in some cases working free of charge in return for training. This helped me to learn how to repair various electronics by the use of problem tracing. I have working on devices ranging from Macbook Pro's to Cheap android tablets. I welcomed every task as each repair was a new lesson for myself. These skills i now use in DIY home projects such as modding older consoles or repairing my collection of vintage computers (Which im slowly growing)</p>
 									<p>The Second part to my Career came in the form of a level 3 apprenticeship in Networking and hardware which was then followed by working as a network engineering / support contractor. Contracting allowed me to lightly dip my feet into various sectors withing IT, I have had the opportunity to talk to people like System Admins (Linux and Windows), Programmers and even a Devops Engineer. I used my time contracting to help build a picture of where i want to be and set in motion the tasks required to help me acieve my goals/ </p>
 									    <h1>What those goals are you ask?</h1>
 									<p>I want to be a Devops Engineer since i don't like being fixed to one sector and Devops engineers are required to work in a lot of different sectors such as scripting and sysadmin to do this i'm currently doing a level 4 Networking Apprenticeship, This involves learning Cisco networking as well as all the fundamentals to system security. Whilst doing this i am also self training php, CSS, Python, Bash and Powershell. Two of these im learning by actually creating something such as this Website which i will improve as my skills do. I also intend to train for AWS Admin, Google Cloud Admin, SQL Databases and do a Microsoft MCSA Certification. as well as learning Java and maybe some .</p>
-									<p> Most of the above things i don't want to do because it will get me good money or help me settle in life but because i want to be able to understand how things such as Cloud platforms work and to be able to tinker with my own linux servers and create Systems such as Home Automation for my own home. 
+									<p> Most of the above things i don't want to do because it will get me good money or help me settle in life but because i want to be able to understand how things such as Cloud platforms work and to be able to tinker with my own linux servers and create Systems such as Home Automation for my own home.</p> 
 								<h1>Have a look at my CV</h1>
                                  <!-- Trigger/Open The Modal -->
                                  <button onClick="openPopup('div1');">Preview CV</button>
-							</section>
-                                         <div id="div1" class="popup" style="display:none;">
-                                         <div class="cancel" onclick="closePopup();">x</div>                                 <iframe src="/web/viewer.html?file=../Files/Download/CV.pdf" style="width:100%;   height: auto;min-height: 74% !important;"></iframe>	
-                                 <a href="/Files/Download/CV.pdf" download="Vithurshan Selvarajah - CV">
-    	                         <button class="btnpopup" style="width:100%"><i class="fa fa-download"></i> Download</button>
-                                        </div>
+ 							    </div>
+ 							</section>
+
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
@@ -59,6 +56,12 @@ include_once "everypage/header.php";
 
 			</div>
 			</div>
+
+                                         <div id="div1" class="popup" style="display:none;">
+                                         <div class="cancel" onclick="closePopup();">x</div>                                 <iframe src="/web/viewer.html?file=../Files/Download/CV.pdf" style="width:100%;   height: auto;min-height: 74% !important;"></iframe>	
+                                 <a href="/Files/Download/CV.pdf" download="Vithurshan Selvarajah - CV">
+    	                         <button class="btnpopup" style="width:100%"><i class="fa fa-download"></i> Download</button>
+                                        </div>			
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

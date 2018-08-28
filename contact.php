@@ -43,12 +43,7 @@ include_once "everypage/header.php";
 							<sub><small> Design is forked from "HTML5UP" by Forty with my own changes added</small></sub>
 							</div>
 					</footer>
-                                         <div id="div1" class="popup" style="display:none;">
-                                         <div class="cancel" onclick="closePopup();">x</div>  
-											<h3></h3>
-											<h2 class="">Smart Doorbell</h2>
-											<p>Content to come</p>
-                                        </div>	
+	
 			</div>
 
 		<!-- Scripts -->
@@ -79,5 +74,11 @@ function myMap() {
 </div>
 </section>
 </div>
+                                         <div id="div1" class="popup" style="display:none;">
+                                         <div class="cancel" onclick="closePopup();">x</div>  
+											<h3></h3>
+											<h2 class="">Contact Form</h2>
+											<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhSepSAg3QKfeqMckjfCiMrpybL7ZAd1uysCQ7O89VdSMNjw/viewform?embedded=true" width="100%" height="80%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                                        </div>
 </body>
 </php>
