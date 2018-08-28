@@ -182,6 +182,7 @@ include_once "everypage/header.php";
                                          <div class="cancel" onclick="closePopup();">x</div>  
 											<h3></h3>
 											<h2 class="">Smart Doorbell</h2>
+											<p>Content to come</p>
                                         </div>											
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
