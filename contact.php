@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/php5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/projectpopup.css" />			
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
@@ -28,7 +29,7 @@ include_once "everypage/header.php";
 								<div class="inner">
 							<div class="content">
 								<p>I am based in Croydon, London.</p>
-                                <p>If you would like to contact me feel free to send me a message on <a href="mailto:vithu@live.com">email</a></p> or via <a href="http://www.linkedin.com/in/vithusel">Linkedin</a></p>
+                                <p>If you would like to contact me feel free to send me a message on <a href="mailto:vithu@live.com" onClick="this.blur()">email</a> / <a onClick="openPopup('div1');">Online Form</a></p> or via <a href="http://www.linkedin.com/in/vithusel">Linkedin</a></p>
       							</div>	
 					<footer id="footer">
 						<div class="inner">
@@ -42,7 +43,12 @@ include_once "everypage/header.php";
 							<sub><small> Design is forked from "HTML5UP" by Forty with my own changes added</small></sub>
 							</div>
 					</footer>
-
+                                         <div id="div1" class="popup" style="display:none;">
+                                         <div class="cancel" onclick="closePopup();">x</div>  
+											<h3></h3>
+											<h2 class="">Smart Doorbell</h2>
+											<p>Content to come</p>
+                                        </div>	
 			</div>
 
 		<!-- Scripts -->
@@ -53,6 +59,7 @@ include_once "everypage/header.php";
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/projectpopup.js"></script>
 			<script>
 function myMap() {
   var myCenter = new google.maps.LatLng(51.344273,-0.061532);
