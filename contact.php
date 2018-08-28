@@ -29,7 +29,7 @@ include_once "everypage/header.php";
 								<div class="inner">
 							<div class="content">
 								<p>I am based in Croydon, London.</p>
-                                <p>If you would like to contact me feel free to send me a message on <a href="mailto:vithu@live.com" onClick="this.blur()">email</a> / <a onClick="openPopup('div1');">Online Form</a></p> or via <a href="http://www.linkedin.com/in/vithusel">Linkedin</a></p>
+                                <p>If you would like to contact me feel free to send me a message on <button onclick= window.open('mailto');>email</button> / <button onClick="openPopup('div1');">Online Form</button> / <button onclick= window.open('https://www.linkedin.com/in/vithusel');>Linkedin</button></p>
       							</div>	
 					<footer id="footer">
 						<div class="inner">
