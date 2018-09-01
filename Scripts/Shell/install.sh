@@ -28,7 +28,7 @@ echo 'Updated Raspberry Pi Firmware'
 echo -e $TEXT_RESET
 
 cd /var/www
-sudo chown $currentuser:$currentuser html
+sudo chown vithusel:vithusel html
 cd html
 rm index.html
 cd ..
