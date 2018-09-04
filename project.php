@@ -138,7 +138,8 @@ include_once "everypage/header.php";
 											<h3></h3>
 											<h2 class="">Pepper Tab</h2>
 										 <embed src="/web/viewer.html?file=../Files/Download/PepperTab.pdf" style="width:100%; height:71%"></embed>
-                                            <a href="/Files/Download/PepperTab.pdf" download="Pepper Tab">										 
+                                            <a href="/Files/Download/PepperTab.pdf" download="PepperTab">
+    	                         <button class="btnpopup" style="width:100%"><i class="fa fa-download"></i> Download</button></a>										 
                                         </div>
 
                                          <div id="div3" class="popup" style="display:none;">
