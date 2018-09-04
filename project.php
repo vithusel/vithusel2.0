@@ -137,7 +137,8 @@ include_once "everypage/header.php";
                                          <div class="cancel" onclick="closePopup();">x</div>                                           
 											<h3></h3>
 											<h2 class="">Pepper Tab</h2>
-										 <embed src="/web/viewer.html?file=../Files/Download/PepperTab.pdf" style="width:100%; height:71%"></embed>											
+										 <embed src="/web/viewer.html?file=../Files/Download/PepperTab.pdf" style="width:100%; height:71%"></embed>
+                                            <a href="/Files/Download/PepperTab.pdf" download="Pepper Tab">										 
                                         </div>
 
                                          <div id="div3" class="popup" style="display:none;">
