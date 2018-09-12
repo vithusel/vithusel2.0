@@ -3679,7 +3679,7 @@ title {
 			}
 			#main > * > .nomargin {
 		        margin: 5;
-		        padding: 0;
+		        padding: 40;
 		        border: 0;
 		        font-size: 100%;
 		        font: inherit;
