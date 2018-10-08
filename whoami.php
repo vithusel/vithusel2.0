@@ -1,4 +1,4 @@
-<!DOCTYPE php>
+<!DOCTYPE html>
 <php>
 	<head>
 	    <link rel="icon" type="image/jpg" href="images/logo.jpg">	
