@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<php>
+<html>
 	<head>
 	    <link rel="icon" href="images/logo.jpg">	
 		<title>Projects</title>
@@ -13,9 +13,7 @@
 	</head>
 	<body>
 		 <div class="preloader"></div>
-<?php
-include_once "everypage/header.php";
-?>
+<?php include_once "everypage/header.php"; ?>
 
 				<!-- Banner -->
 				<!-- Note: The "styleN" class below should match that of the header element. -->
@@ -197,4 +195,4 @@ include_once "everypage/header.php";
 			<script src="assets/js/projectpopup.js"></script>	
 			<script src="assets/js/slideshow.js"></script>			
 	</body>
-</php>
+</html>

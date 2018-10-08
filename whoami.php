@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<php>
+<html>
 	<head>
 	    <link rel="icon" type="image/jpg" href="images/logo.jpg">	
 		<title>Who am i?</title>
@@ -13,9 +13,7 @@
 	</head>
 	<body>
 	 <div class="preloader"></div>	
-<?php
-include_once "everypage/header.php";
-?>
+<?php include_once "everypage/header.php"; ?>
 
 				<!-- Main -->
 					<div id="main" class="alt">
@@ -73,4 +71,4 @@ include_once "everypage/header.php";
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/projectpopup.js"></script>	
 	</body>
-</php>
+</html>

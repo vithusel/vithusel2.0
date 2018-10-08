@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<php>
+<html>
 	<head>
 	    <link rel="icon" href="images/logo.jpg">	
 		<title>Contact me</title>
@@ -13,9 +13,7 @@
 	</head>
 	<body>
 	 <div class="preloader"></div>
-<?php
-include_once "everypage/header.php";
-?>
+<?php include_once "everypage/header.php"; ?>
 				<!-- Main -->
 					<div id="main" class="alt">
 
@@ -70,7 +68,7 @@ function myMap() {
 }
 </script>
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZWH_ZbpwknBDDExUYW9AZEVLJo69vxAg&callback=myMap"></script>
-</php>
+</html>
 </div>
 </section>
 </div>
@@ -81,4 +79,4 @@ function myMap() {
 											<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhSepSAg3QKfeqMckjfCiMrpybL7ZAd1uysCQ7O89VdSMNjw/viewform?embedded=true" width="100%" height="80%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
                                         </div>
 </body>
-</php>
+</html>

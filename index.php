@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<php>
-<?php
-include_once "everypage/header.php";
-?>
+<html>
 	<head>
 		<title>Home Page</title>
 		<meta charset="utf-8" />
@@ -13,8 +10,9 @@ include_once "everypage/header.php";
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
-	
-	 <div class="preloader"></div>
+		 <div class="preloader"></div>
+            <?php include_once "everypage/header.php"; ?>	
+
 
 				<!-- Banner -->
 					<section id="banner" class="major">
@@ -97,4 +95,4 @@ include_once "everypage/header.php";
 include_once "everypage/login.php";
 ?>
 	</body>
-</php>
+</html>

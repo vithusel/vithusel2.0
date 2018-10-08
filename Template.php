@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<php>
+<html>
 	<head>
 	    <link rel="icon" href="images/logo.jpg">	
 		<title>Contact me</title>
@@ -12,9 +12,7 @@
 	</head>
 	<body>
 	 <div class="preloader"></div>
-<?php
-include_once "everypage/header.php";
-?>
+<?php include_once "everypage/header.php"; ?>
 
 				<!-- Main -->
 					<div id="main" class="alt">
@@ -455,4 +453,4 @@ print 'It took ' + i + ' iterations to sort the deck.';
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>	
 	</body>
-</php>
+</html>
