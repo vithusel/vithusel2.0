@@ -27,9 +27,9 @@
 								<div class="inner">
 							<div class="content">
 								<p>I am based in Croydon, London.</p>
-                                <p>If you would like to contact me feel free to send me a message on 
-								<button onclick= window.open('mailto');>email</button>  
-								<button onClick="openPopup('div1');">Online Form</button> 
+                                <p>If you would like to contact me feel free to send me a message on <p></p>
+								<button onclick= window.open('mailto');>email</button>  <p></p>
+								<button onClick="openPopup('div1');">Online Form</button> <p></p>
 								<button onclick= window.open('https://www.linkedin.com/in/vithusel');>Linkedin</button></p>
       							</div>	
 					<footer id="footer">
